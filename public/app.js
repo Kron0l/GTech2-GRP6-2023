@@ -13,7 +13,6 @@ window.addEventListener('load', async () =>
 
                 SDK3DVerse.installExtension(SDK3DVerse_Gizmos_Ext);
                 SDK3DVerse.connectToEditor();
-                SDK3DVerse_Entity.attachComponent("6f8029b0-c4b7-43b9-87f4-9ccf3466568a",0)
                 canvas.addEventListener(
                     'mouseup',
                     async (e) =>

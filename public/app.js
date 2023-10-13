@@ -10,6 +10,8 @@ window.addEventListener('load', async () =>
     SDK3DVerse.startStreamer(connectionInfo);
     SDK3DVerse.connectToEditor();
 
+
+});
     async function SetResolution(canvas)
 {
     const canvasSize    = {width: window.innerWidth, height: window.innerHeight};
@@ -34,4 +36,3 @@ window.addEventListener('load', async () =>
     }
     SDK3DVerse.setResolution(w, h, scale);
 }
-});

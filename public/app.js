@@ -12,7 +12,8 @@ window.addEventListener('load', async () =>
 
 
 });
-    async function SetResolution(canvas)
+SetResolution('display_canvas');
+async function SetResolution(canvas)
 {
     const canvasSize    = {width: window.innerWidth, height: window.innerHeight};
 

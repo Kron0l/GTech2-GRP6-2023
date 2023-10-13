@@ -8,4 +8,5 @@ window.addEventListener('load', async () =>
 
     SDK3DVerse.setupDisplay(document.getElementById('display_canvas'));
     SDK3DVerse.startStreamer(connectionInfo);
+    SDK3DVerse.connectToEditor();
 });
